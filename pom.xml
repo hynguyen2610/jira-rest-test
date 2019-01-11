@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>JiraRestTest</groupId>
+  <artifactId>jira-rest-test</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>io.atlassian.fugue</groupId>
+      <artifactId>fugue</artifactId>
+      <version>4.7.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.atlassian.jira/jira-rest-java-client-core -->
+    <dependency>
+      <groupId>com.atlassian.jira</groupId>
+      <artifactId>jira-rest-java-client-core</artifactId>
+      <version>5.1.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.atlassian.jira</groupId>
+      <artifactId>jira-rest-api</artifactId>
+      <version>6.2.6</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.atlassian.util.concurrent</groupId>
+      <artifactId>atlassian-util-concurrent</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.atlassian.jira</groupId>
+      <artifactId>jira-rest-java-client-api</artifactId>
+      <version>5.1.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.guava/listenablefuture -->
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>listenablefuture</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.atlassian.util.concurrent/atlassian-util-concurrent -->
+    <dependency>
+      <groupId>io.atlassian.util.concurrent</groupId>
+      <artifactId>atlassian-util-concurrent</artifactId>
+      <version>4.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.atlassian.fugue/fugue -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-jdk14</artifactId>
+      <version>1.7.25</version>
+    </dependency>
+
+
+  </dependencies>
+
+
+</project>
